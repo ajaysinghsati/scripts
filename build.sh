@@ -2,7 +2,7 @@
 #envsetup
 source build/envsetup.sh
 # lunch command 
-lunch derp_oscar-user
+lunch rising_oscar-user
 export TZ=Asia/Dhaka
 #make command
-mka derp
+make updatepackage
