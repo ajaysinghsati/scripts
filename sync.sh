@@ -14,6 +14,7 @@ git clone https://github.com/ajaysinghsati/local_manifest.git --depth 1 -b risin
 repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync -j8
 #remove rm -rf hardware/google/pixel/kernel_headers
 rm -rf hardware/google/pixel/kernel_headers
+rm -rf vendor/rising/build/soong/Android.bp
 # Run build script 
 chmod u+x scripts/build.sh
 ./scripts/build.sh
