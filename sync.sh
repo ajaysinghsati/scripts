@@ -18,10 +18,4 @@ rm -rf vendor/rising/build/soong/Android.bp
 # Run build script 
 chmod u+x scripts/build.sh
 ./scripts/build.sh
-echo
-echo "--------------------------------------"
-echo "    Run Build script Buildbot         "
-echo "              by                      "
-echo "         ajaysinghsati                "
-echo "--------------------------------------"
-echo
+
