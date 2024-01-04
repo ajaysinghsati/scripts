@@ -15,8 +15,6 @@ repo sync -c --no-clone-bundle --no-tags --optimized-fetch --prune --force-sync 
 #remove rm -rf hardware/google/pixel/kernel_headers
 rm -rf hardware/google/pixel/kernel_headers
 rm -rf vendor/rising
-git clone https://github.com/RisingTechOSS/android_vendor_rising.git vendor/rising
-rm -rf hardware/oplus
 git clone https://github.com/ajaysinghsati/hardware_oplus.git -b risingos-14
 # Run build script 
 chmod u+x scripts/build.sh
