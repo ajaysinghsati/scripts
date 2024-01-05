@@ -9,7 +9,7 @@ echo "--------------------------------------"
 echo
 #Remove local manifest
 rm -rf .repo/local_manifests
-rm -rf device/oneplus/sm6375-common
+#rm -rf device/oneplus/sm6375-common
 #rm -rf vendor/aosp
 rm -rf vendor/rising
 git clone https://github.com/ajaysinghsati/android_vendor_rising.git vendor/rising
