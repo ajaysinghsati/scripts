@@ -1,5 +1,5 @@
 ```bash
-sudo apt install rsync -y && cd crave && ./crave devspace
+sudo apt install rsync -y && cd crave && ./crave devspace && cd derpfest14
 ```
 
 ```bash
