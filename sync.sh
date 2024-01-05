@@ -10,7 +10,7 @@ echo
 #Remove local manifest
 rm -rf .repo/local_manifests
 rm -rf device/oneplus/sm6375-common
-git clone https://github.com/PixelOS-AOSP/vendor_aosp.git vendor/aosp
+rm -rf vendor/aosp
 #git clone https://github.com/ajaysinghsati/android_vendor_rising.git vendor/rising
 #Clone trees local manifest
 git clone https://github.com/ajaysinghsati/local_manifest.git --depth 1 -b risingos-14 .repo/local_manifests
